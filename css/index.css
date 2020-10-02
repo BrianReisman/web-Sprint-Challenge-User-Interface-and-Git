@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -47,18 +47,77 @@ table {
 	border-spacing: 0;
 }
 
+/* RESET ABOVE THIS LINE */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* SPRINT CODE INHERITED BELOW THIS LINE */
+
 * {
     box-sizing: border-box;
+    /* border: 1px solid royalblue; */
+    margin: 3vh;
 }
 
 html, body {
-    height: 100%;
+    /* height: 100%; */ /*Commented out because messed with border aid. Page will have scroll*/
     font-family: 'Roboto', sans-serif;
 }
+
+header{
+    display: flex;
+    width: 100%;
+    margin: 2vh 0vh 4vh 0vh;
+}
+
+.navbuttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.topbottom, .bodysection{
+    border-bottom: 2px dotted grey;
+}
+
+.bodysection{
+    margin: 1vh 1.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.topbottom {
+    margin: 0vh;
+    padding: 1.5vw;
+}
+
+.row1, .row2 {
+    margin: 1vh;
+    display: flex;
+    justify-content: center;
+}
+
+/* BODY */
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
+    margin-top: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -85,6 +144,11 @@ p {
     padding-bottom: 20px;  
 }
 
+/* MIDDLE CONTENT */
+/* MIDDLE CONTENT */
+/* MIDDLE CONTENT */
+
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -92,7 +156,7 @@ p {
 
 .middle-content h2 {
     padding: 0 2%;
-    margin-bottom: 0;
+    /* margin-bottom: 2vh; */
 }
 
 .middle-content .boxes {
@@ -102,6 +166,7 @@ p {
 }
 
 .middle-content .boxes .box {
+    /* border: 1px solid black; */
     width: 12.5%;
     height: 100px;
     background: black;
@@ -126,6 +191,23 @@ p {
     padding-right: 0;
 }
 
+
+button {
+    background: transparent;
+    border-radius: 12px;
+    padding: 1.25vw 3vw;
+    border: 2px solid black;
+    font-size: 1rem;
+
+}
+
+#lasttext{
+    padding-bottom: 4vh;
+}
+
+
+/* FOOTER */
+
 footer {
     width: 100%;
     background: black;
@@ -141,6 +223,38 @@ footer nav {
 }
 
 footer nav a {
-    color: white;
+    color: lightgray;
     text-decoration: none;
+}
+
+
+#b1{
+    background: teal;
+}
+#b2{
+    background: gold;
+}
+#b3{
+    background: cadetblue;
+}
+#b4{
+     background: coral;
+}
+#b5{
+    background: crimson;
+}
+#b6{
+    background: forestgreen;
+}
+#b7{
+    background: darkorchid;
+}
+#b8{
+    background: hotpink;
+}
+#b9{
+    background: indigo;
+}
+#b10{
+    background: dodgerblue;
 }

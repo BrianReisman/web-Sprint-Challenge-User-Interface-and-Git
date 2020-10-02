@@ -1,4 +1,4 @@
-# Sprint Challenge: User Interface and Git - Multi-Page Website
+<!-- # Sprint Challenge: User Interface and Git - Multi-Page Website
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
 
@@ -14,13 +14,13 @@ You have three hours to complete this challenge. Plan your time accordingly.
 
 ## Commits
 
-Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons)
+Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) -->
 
-## Description
+<!-- ## Description
 
 In this challenge, you build a missing header (navigation and image) on the home page, update some CSS styling on the home page, and create an additional page (About) which will link from the navigation you created.
 
-In meeting the minimum viable product (MVP) specifications listed below, your web page should look like the solution screen shots of the home and about pages (found in the design-files folder):
+In meeting the minimum viable product (MVP) specifications listed below, your web page should look like the solution screen shots of the home and about pages (found in the design-files folder): -->
 
 [Click here for the home page example](https://tk-assets.lambdaschool.com/39a49225-8ac9-43da-aa90-514fd60ae99a_sprint-challenge-ui-home-example.png)
 
@@ -34,17 +34,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+I would say that semantic HTML is any HTML tag/element who purpose is clear simply by what is written in between the < and the >. It does what it says on the label
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Big difference #1 - block elements demand their own line. examples <h1-6><div><blockquote>
+Big difference #2 - inline play nice with others and do not force their neighboring elements off thier line. examples <span><em><b><a>
 
 3. What are the 4 areas of the box model?
 
+from inner most to outter most content>padding>border>margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+The cross axis.
 
 5. Explain why git is valuable to a team of developers.
 
+It allows multiple people to work on the same project and keep track of changes that have been made, by whom, and allows older versions to be restored.
+
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
-## Project Set Up
+<!-- ## Project Set Up
 
 - [ ] Create a forked copy of this project.
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
@@ -55,7 +66,7 @@ You are expected to be able to answer all these questions. Your responses contri
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-
+ -->
 
 
 ## Minimum Viable Product
@@ -71,7 +82,7 @@ Your finished project must include all of the following requirements:
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
+<!-- * [ ] box1: `teal`
 * [ ] box2: `gold`
 * [ ] box3: `cadetblue`
 * [ ] box4: `coral`
@@ -80,8 +91,8 @@ You will also notice there are 10 boxes on the home page that need background co
 * [ ] box7: `darkorchid`
 * [ ] box8: `hotpink`
 * [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
-
+* [ ] box10: `dodgerblue` -->
+<!-- 
 ### About Page
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
@@ -89,7 +100,7 @@ You will also notice there are 10 boxes on the home page that need background co
 * [ ] Copy and paste your home page navigation and header into the about page
 * [ ] Update the header image with the about page image
 * [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [ ] Build the rest of the about page layout to match the design -->
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
