@@ -152,7 +152,7 @@ p {
 
 .middle-content h2 {
     padding: 0 2%;
-    margin-bottom: 2vh;
+    /* margin-bottom: 2vh; */
 }
 
 .middle-content .boxes {
@@ -162,7 +162,7 @@ p {
 }
 
 .middle-content .boxes .box {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 12.5%;
     height: 100px;
     background: black;
@@ -219,33 +219,33 @@ footer nav a {
 }
 
 
-.middle-content div .box1{
+#b1{
     background: teal;
 }
-.box2{
-    color: gold;
+#b2{
+    background: gold;
 }
-.box{
-    color: cadetblue;
+#b3{
+    background: cadetblue;
 }
-.box{
-    color: coral;
+#b4{
+     background: coral;
 }
-.box{
-    color: crimson;
+#b5{
+    background: crimson;
 }
-.box{
-    color: forestgreen;
+#b6{
+    background: forestgreen;
 }
-.box{
-    color: darkorchid;
+#b7{
+    background: darkorchid;
 }
-.box{
-    color: hotpink;
+#b8{
+    background: hotpink;
 }
-.box{
-    color: indigo;
+#b9{
+    background: indigo;
 }
-.box{
-    color: dodgerblue;
+#b10{
+    background: dodgerblue;
 }
