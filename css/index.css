@@ -54,11 +54,18 @@ table {
 /*  */
 /*  */
 /*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
 /* SPRINT CODE INHERITED BELOW THIS LINE */
 
 * {
     box-sizing: border-box;
     /* border: 1px solid royalblue; */
+    margin: 3vh;
 }
 
 html, body {
@@ -69,10 +76,8 @@ html, body {
 header{
     display: flex;
     width: 100%;
-    margin: 2vh 0vw;
+    margin: 2vh 0vh 4vh 0vh;
 }
-
-
 
 .navbuttons{
     display: flex;
@@ -86,16 +91,11 @@ a {
     color: black;
 }
 
-/* div.banner {
-    height: 15vh;
-    width: auto;
-    background: url("img\jumbo-about.png");
-} */
 .topbottom, .bodysection{
-    border-bottom: 1px dashed grey;
+    border-bottom: 2px dotted grey;
 }
 .bodysection{
-    margin: 2vh;
+    margin: 1vh;
 }
 .topbottom {
     margin: 0vh;
@@ -105,11 +105,15 @@ a {
 .row1, .row2 {
     margin: 1vh;
     display: flex;
+    /* justify-content: space-between; */
 }
+
+/* BODY */
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
+    margin-top: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -136,6 +140,11 @@ p {
     padding-bottom: 20px;  
 }
 
+/* MIDDLE CONTENT */
+/* MIDDLE CONTENT */
+/* MIDDLE CONTENT */
+
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -143,7 +152,7 @@ p {
 
 .middle-content h2 {
     padding: 0 2%;
-    margin-bottom: 0;
+    margin-bottom: 2vh;
 }
 
 .middle-content .boxes {
@@ -153,6 +162,7 @@ p {
 }
 
 .middle-content .boxes .box {
+    border: 1px solid black;
     width: 12.5%;
     height: 100px;
     background: black;
@@ -180,9 +190,12 @@ p {
 
 button {
     background: transparent;
-    border-radius: 20%;
-    padding: .5vw 1vw;
+    border-radius: 12px;
+    padding: 1.25vw 3vw;
+    border: 2px solid black;
+    font-size: 1rem;
 }
+
 
 /* FOOTER */
 
@@ -201,6 +214,38 @@ footer nav {
 }
 
 footer nav a {
-    color: white;
+    color: lightgray;
     text-decoration: none;
+}
+
+
+.middle-content div .box1{
+    background: teal;
+}
+.box2{
+    color: gold;
+}
+.box{
+    color: cadetblue;
+}
+.box{
+    color: coral;
+}
+.box{
+    color: crimson;
+}
+.box{
+    color: forestgreen;
+}
+.box{
+    color: darkorchid;
+}
+.box{
+    color: hotpink;
+}
+.box{
+    color: indigo;
+}
+.box{
+    color: dodgerblue;
 }
