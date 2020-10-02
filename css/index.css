@@ -94,8 +94,12 @@ a {
 .topbottom, .bodysection{
     border-bottom: 2px dotted grey;
 }
+
 .bodysection{
-    margin: 1vh;
+    margin: 1vh 1.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .topbottom {
     margin: 0vh;
@@ -105,7 +109,7 @@ a {
 .row1, .row2 {
     margin: 1vh;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: center;
 }
 
 /* BODY */
@@ -194,6 +198,11 @@ button {
     padding: 1.25vw 3vw;
     border: 2px solid black;
     font-size: 1rem;
+
+}
+
+#lasttext{
+    padding-bottom: 4vh;
 }
 
 
